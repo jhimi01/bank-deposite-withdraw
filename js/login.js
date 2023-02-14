@@ -16,6 +16,6 @@ document.querySelector('#btn-submit').addEventListener('click', function(){
     if (password === 'password' && email === 'email') {
         location.href = "bank.html";
     }else{
-        alert('inter the invalid password or email')
+        alert('Incorrect password or email or both')
     }
 });

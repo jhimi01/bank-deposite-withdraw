@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <header>
+    <h1 class="text-5xl text-center mt-6">Welcome to your
+        <span class="font-semibold text-violet-600">baap er bank</span>
+    </h1>
+ </header>
+
+ <!-- main section started -->
+ <main>
+    <section class="bg-green-200 p-7 w-9/12 mx-auto mt-4 rounded">
+        <h1 class="text-3xl mb-3">Please login</h1>
+        <div>
+            <input id="input-email" class="py-1 px-3 block w-9/12 mb-3 rounded" type="email" placeholder="email" required>
+            <input id="input-pass" class="py-1 px-3 block w-9/12 mb-3 rounded" type="password" placeholder="password" required>
+            <button id="btn-submit" class="bg-amber-500 text-white hover:bg-amber-600 p-2 rounded" type="submit">Submit</button>
+        </div>
+    </section>
+ </main>
+
+ <script src="js/login.js"></script>
+</body>
+</html>
